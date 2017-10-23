@@ -81,7 +81,7 @@ class Register extends Component{
                             <span className="form-text my-md-2" />
                             <button className="btn btn-lg btn-primary btn-block">Sign up</button>
                         </form>
-                        {getMessage(this, 'User', 'registered', 'email')}
+                        {getMessage(this, 'User', 'registered. Please confirm registration on your email', 'email')}
                     </div>
                 </div>
             </div>

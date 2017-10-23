@@ -65,7 +65,7 @@ function showMessage(component, statusCode){
         showMessage: true,
         statusCode: statusCode
     });
-    setTimeout(() => {component.setState({showMessage: false})}, 3000);
+    setTimeout(() => {component.setState({showMessage: false})}, 4000);
 }
 
 function getMessage(component, itemName, successAction, conflictParam) {

@@ -88,11 +88,11 @@ class Tasks extends Component {
                             <div className="btn-group" data-toggle="buttons">
                                 <label onClick={this.handleChangeFilter.bind(this)} id="all" className="btn btn-outline-info active">
                                     <input type="radio" name="options" autoComplete="off" defaultChecked />
-                                    All projects
+                                    All tasks
                                 </label>
                                 <label onClick={this.handleChangeFilter.bind(this)} id="my" className="btn btn-outline-info">
                                     <input type="radio" name="options" autoComplete="off" />
-                                    My projects
+                                    My tasks
                                 </label>
                             </div>
                         </div> : false
